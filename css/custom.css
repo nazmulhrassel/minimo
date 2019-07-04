@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap');
+
+*{
+    border: 0 solid #dae4e9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+        font-family: 'PT Sans', sans-serif;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main_content{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper_sign{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #c2cace9e;
+    padding: 120px 0;
+}
+
+
+header{}
+
+.wrapper_header{
+    padding: 80px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+}                                                      
+
+img{
+    max-width: 100%;
+    display: block;   
+}
+
+nav {}
+
+ .menu{
+    width: 80%;
+    float: left;
+    padding: 15px 0;
+}
+
+ .menu ul{
+    list-style: none;
+    float: right;
+}
+
+ .menu ul li{
+    display: inline-block;
+    padding: 0 41px;
+}
+
+ .menu ul li span{
+    
+}
+
+ .menu ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: black;
+    background: #ffffff;
+    display: block;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    box-shadow: -3px 2px 4px 0px #9E9E9E;
+    transition: all 0.5s;
+ }
+
+ .menu ul li a:hover{
+    background-color: #f44336f0;
+    color: #fff;
+}
+
+ .menu ul li a.lifestyle:hover{}
+ .menu ul li a.Photodiary:hover{}
+ .menu ul li a.Music:hover{}
+ .menu ul li a.Travel:hover{}
+
+ .container img
+        {
+            width: 1200px;
+             float: left;
+        }
+.wrapper_photodairy{
+    padding: 100px 0;
+}
+.photodairy_content{}
+    .photodairy_content h2{
+    width: 100%;
+    font-size: 40px;
+    color: #585555;
+    margin-bottom: 30px;
+}
+    .photodairy_content h3{
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #9E9E9E;
+    margin-bottom: 15px;
+}
+    .photodairy_content p{
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.feadback{
+    padding: 20px 0;
+    margin-top: 35px;
+}
+form{
+}
+
+form textarea{
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: transparent;
+    float: left;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #585555;
+    float: left;
+    font-weight: 300;
+    color: #ffffff;
+    width: 104px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+
+.wrapper_lifestyle{
+    padding: 40px 0;
+}
+
+.left_holder{
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+}
+
+.left_holder img{}
+
+.right_holder{
+    width: 500px;
+    float: right;
+    margin-left: 50px;
+}
+
+.right_holder img{}
+
+.wrapper_lifestyle h2{
+    width: 100%;
+    font-size: 35px;
+    color: #585555;
+    margin-bottom: 30px;
+}
+    .wrapper_lifestyle h3{
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #9E9E9E;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+    .wrapper_lifestyle p{
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.content_box{
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content_box h2{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #15242f;
+}
+.content_box form{}
+
+
+
+
+input[type=text]{
+    width: 81%;
+    border: 0.5px solid #112027;
+    border-radius: 4px;
+    margin: 8px 52px;
+    box-sizing: border-box;
+    transition: .5s;
+    background-color: transparent;
+    color: #0a1e2d;
+
+}
+    
+input[type=text]:focus{
+    border-color: #29B6F6;
+    box-shadow: 0 1px 3px 0 #29B6F6;
+}
+
+.sign_up input[type=text]{
+    padding-left: 40px;
+}
+
+.sign_up{
+    position: relative;
+}
+
+.sign_up input[type=text]:focus + i{
+    color: #29B6F6;
+}
+
+.sign_up a i{
+    position: absolute;
+    left: 540px;
+    top: 10px;
+    padding: 9px 8px;
+    color: #0a1e2d;
+    transition: .5s;
+
+
+}
+    .sign_up a i:focus{
+        border-color: #29B6F6;
+        box-shadow: 0 0 4px 0 #29B6F6;
+    }
+
+.sign_up i{
+    position: absolute;
+    left: 57px;
+    top: 11px;
+    padding: 9px 8px;
+    color: #0a1e2d;
+    transition: .5s;
+}
+
+
+.wrapper_moreContent{
+    padding: 100px 0;
+}
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    font-size: 30px;
+    text-transform: capitalize;
+    border: .5px solid #9a9090e6;
+    padding: 25px 50px;
+    background-color: transparent;
+    color: #585555;
+}
+
+.wrapper_footer{
+    padding: 50px 0;
+    background-color: #c2cace9e;
+}
+.terms{
+    width: 50%;
+    float: left;
+}
+.terms h5{
+    width: 29%;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+}
+.terms a{
+    width: 60px;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.social{
+    width: 50%;
+    float: left;
+}
+.social ul{
+    list-style: none;
+    float: right;
+}
+.social ul li{
+    display: inline-block;
+    padding: 7px;
+}
+.social ul span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.social ul li a{
+    display: block;
+    color: #212529;
+    background: #ffffffff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 3px 4px 5px #352e2e;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.social ul li a.facebook:hover{
+    background-color: #3b5a9a;
+    color: #fff;
+}
+.social ul li a.twitter:hover{
+    background-color: #1aa9e1;
+    color: #fff;
+}
+.social ul li a.instagram:hover{
+    background-color: #e44a40;
+    color: #fff;
+}
+
